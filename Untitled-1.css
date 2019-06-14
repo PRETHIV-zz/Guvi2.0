@@ -1,0 +1,223 @@
+/* Format:
+
+Author: PRETHIV N
+Reason: GUVI CODEKATA FRONT PAGE DESGIN TASK 
+Last modified date: 19/02/2018
+Reason for modifications: CREATION
+
+*/
+/* all classess used goes here in lexically increasing order */
+/*start button resides inside each sections such as newbie expert...*/
+.button {
+  position: absolute;
+  top: 50%;
+}
+
+/*whole content is put inside a class which resides within container fkuid for the purpose of margining*/
+.inmain {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/*super class of button class*/
+.wrapper {
+  text-align: center;
+  display: block;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: absolute;
+  left: 2.939em;
+}
+
+/*all id's sass goes here in lexically increasing order*/
+/*That start buttons css information*/
+#bt1 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.90em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  position: relative;
+  left: 1.03em;
+  width: 8.8em;
+  height: 2.86em;
+  border-radius: 1.90em;
+  background-color: #06e278;
+  border: solid 0.09em #06e278;
+  top: 0em;
+  left: 40px;
+}
+
+/*codekata first set padding*/
+#ckset {
+  padding: 0.87em;
+}
+
+/*codekata newbie set css info*/
+#codekatanewbie {
+  padding-left: 1.77em;
+  padding-bottom: 30%;
+  -webkit-box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+          box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+}
+
+/*codekata active set cssinfo abbreviated as codekataset2(cks2)*/
+#cks2 {
+  padding-left: 1.77em;
+  padding-bottom: 30%;
+  -webkit-box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+          box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+}
+
+/*codekata expert set css info*/
+#cks3 {
+  padding-left: 1.77em;
+  padding-bottom: 30%;
+  -webkit-box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+          box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+}
+
+/*codekata proplus set css info*/
+#cks4 {
+  padding-left: 1.77em;
+  padding-bottom: 30%;
+  -webkit-box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+          box-shadow: 0 0 1.4em rgba(133, 20, 232, 0.11);
+}
+
+/*codekata label text such as newbie ,active..*/
+#codekatalbl {
+  width: 8em;
+  height: 1.30em;
+  color: #454f63;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.04em;
+  font-weight: 600;
+  letter-spacing: 0.146em;
+  text-transform: uppercase;
+  position: relative;
+  top: 0.579em;
+}
+
+/*The description about each codekata set*/
+#codekatapagetxt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.69em;
+  color: #454f63;
+  font-weight: 11.59em;
+  letter-spacing: 0.02em;
+}
+
+/*Set no numbered as 1,2,3,4 in codekata*/
+#codekatasetno {
+  width: 0.50em;
+  height: 0.90em;
+  color: #312c35;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.00em;
+  font-weight: 700;
+  letter-spacing: 0.90em;
+}
+
+/*codekatasymbols*/
+#codekatasymbols {
+  float: right;
+  clear: right;
+}
+
+/*leaderboard symbol*/
+#leadersymbol {
+  width: 1.07em;
+  height: 1.06em;
+  color: #454f63;
+}
+
+/*aeroplane flying towards left near to leaderbord*/
+#aeroleft {
+  position: relative;
+  top: 1.58em;
+}
+
+/*code kata symbol that circle triangle rectangle circle*/
+#codekatasym {
+  position: relative;
+  width: 2.74em;
+  height: 2.74em;
+}
+
+/*leaderboard label */
+#leaderboardlbl {
+  font-family: "Muli", sans-serif;
+  width: 8.89em;
+  height: 0.87em;
+  font-weight: 900;
+  color: #454f63;
+  font-size: 1.12em;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+/*sheild symbol within codekata sets within sheild numbers of that sets are present*/
+#sheildsymbol {
+  height: 2.16em;
+  width: 1.87em;
+  position: absolute;
+  left: 2.08em;
+}
+
+/*Name of the set */
+#setname {
+  width: 0.49em;
+  height: 0.90em;
+  color: #312c35;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.18em;
+  font-weight: 700;
+  letter-spacing: 0.19em;
+  position: relative;
+  top: 0.23em;
+  padding-left: 0.68em;
+}
+
+/*no of sets within eac category*/
+#setcounttxt {
+  padding-left: 0.78em;
+  padding-right: 0.78em;
+}
+
+/*description about each sets*/
+#setdesc {
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.81em;
+  font-weight: 400;
+  letter-spacing: 0.024em;
+  line-height: 1.711em;
+}
+
+/*count in sets*/
+#setcountlabel {
+  height: 1.101em;
+  color: #0a0f0d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.32em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1.101em;
+  text-transform: uppercase;
+  position: relative;
+  left: 1.26em;
+  top: 0em;
+}
+
+/*sarcastic slogans for each sets*/
+#setslogan {
+  color: #8b8c91;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.82em;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  line-height: 1.3em;
+}
+/*# sourceMappingURL=Untitled-1.css.map */
